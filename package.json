@@ -1,0 +1,21 @@
+{
+  "name": "rate-limiter",
+  "version": "1.0.0",
+  "description": "a rate limiting library",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel server --out-dir build --presets=es2015 && webpack",
+    "test": "mocha --require babel-register;"
+  },
+  "author": "Cathy Zhu \"cathyxz@gmail.com\"",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-register": "^6.26.0",
+    "mocha": "^3.5.0",
+    "webpack": "^3.5.5"
+  }
+}
