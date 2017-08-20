@@ -20,9 +20,7 @@
     "babel-preset-env": "^1.6.0",
     "babel-register": "^6.26.0",
     "mocha": "^3.5.0",
-    "webpack": "^3.5.5"
-  },
-  "dependencies": {
+    "webpack": "^3.5.5",
     "chai": "^4.1.1"
   }
 }
