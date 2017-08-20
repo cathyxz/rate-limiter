@@ -1,5 +1,5 @@
 {
-  "name": "rate-limiter",
+  "name": "rate-limiter-simple",
   "version": "1.0.0",
   "description": "a rate limiting library",
   "main": "index.js",
