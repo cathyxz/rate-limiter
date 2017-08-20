@@ -6,8 +6,8 @@ export function rateLimit(fn, options={interval: 1000, maxTries: 10}) {
     }.bind(this), options.interval); 
     return function() {
         if (triesWithinInterval < options.maxTries) {
-            fn();
-            triesWithinInterval++;            
+            triesWithinInterval++; 
+            return fn();           
         } 
     }
 }
